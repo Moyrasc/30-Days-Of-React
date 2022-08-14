@@ -33,3 +33,4 @@
   //10º Print out each company
 
   // 11º Change each company name to uppercase one by one and print them out
+  // 12º Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.

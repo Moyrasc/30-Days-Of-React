@@ -1,6 +1,6 @@
 
 
-// 12º Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+
 // 13º Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
 // 14º Filter out companies which have more than one 'o' without the filter method
 // 15º Sort the array using sort() method
