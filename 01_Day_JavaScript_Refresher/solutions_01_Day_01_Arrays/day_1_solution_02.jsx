@@ -27,10 +27,8 @@ Ethio ? (console.log('ETHIOPIA')) : countries.push('Ethiopia')
 // 5º In the webTechs array check if Sass exists in the array and if it exists print 'Sass is a CSS preprocess'. If it does not exist add Sass to the array and print the array.
 webTechs.includes('Sass') ? console.log('Sass is a CSS preprocess') : webTechs.push('Sass') && console.log(webTechs);
 // 6º Concatenate the following two variables and store it in a fullStack variable.
-
 const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 const backEnd = ['Node', 'Express', 'MongoDB']
-
 console.log(fullStack)
 ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]
 
