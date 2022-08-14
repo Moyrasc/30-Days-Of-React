@@ -21,6 +21,8 @@ let grade = window.prompt("Enter grade: ");
     // December, January or February, the season is Winter.
     // March, April or May, the season is Spring
     // June, July or August, the season is Summer
+
+    
 // - Check if a day is weekend day or a working day. Your script will take day as an input.
     // What is the day  today? Saturday
     // Saturday is a weekend.
