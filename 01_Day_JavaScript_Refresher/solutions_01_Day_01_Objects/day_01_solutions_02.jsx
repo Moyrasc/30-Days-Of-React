@@ -50,6 +50,13 @@ const users = {
   }
 }
 // 1º Find the person who has many skills in the users object.
+const copyUsers = Object.assign({},users);
+  const usersKeys = Object.keys(copyUsers);
+  const usersValues = Object.values(copyUsers);
+  const usersEntries = Object.entries(copyUsers);
+    usersValues.forEach(value => {
+    console.log(value.skills)
+  });
 
 // 2º Count logged in users,count users having greater than equal to 50 points from the following object.
 usersKeys.forEach(person => {
@@ -64,11 +71,3 @@ if (skills.includes('MongoDB') && skills.includes('Express') && skills.includes(
   console.log("MERN stacker: " + person);
 }
 
-
-// 4º Set your name in the users object without modifying the original users object
-
-// 5º Get all keys or properties of users object
-
-// 6º Get all the values of users object
-
-// 7º Use the countries object to print a country name, capital, populations and languages.

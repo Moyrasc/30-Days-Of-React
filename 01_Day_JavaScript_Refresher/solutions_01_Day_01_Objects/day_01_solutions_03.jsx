@@ -1,6 +1,3 @@
-// 1º Create an object literal called personAccount. It has firstName, lastName, incomes, expenses properties and it has totalIncome, 
-// totalExpense, accountInfo,addIncome, addExpense and accountBalance methods. 
-// Incomes is a set of incomes and its description and expenses is a set of incomes and its description.
 
 // 2º **** Questions:2, 3 and 4 are based on the following two arrays:users and products ()
 const users = [
@@ -115,4 +112,3 @@ function likeProduct(userId, prod) {
     }
   }
 
-// 4º Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove like if it was liked.
